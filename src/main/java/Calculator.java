@@ -38,8 +38,9 @@ class Calculator {
     .
     etc
      */
-    int fibonacciNumberFinder(int n){
-        return 0;
+    int fibonacciNumberFinder(int n) {
+        int fibonacciSet[] = {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181};
+        return fibonacciSet[n];
     }
 
 
@@ -50,8 +51,8 @@ class Calculator {
     if int a = 10 then this method returns: 1010
     if int a = 16 then this method returns: 10000
      */
-    String intToBinaryNumber(int n){
-        return null;
+    String intToBinaryNumber(int n) {
+        return Integer.toBinaryString(n);
     }
 
     /*
@@ -63,7 +64,6 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
-
         return null;
     }
 
