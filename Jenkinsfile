@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
     tools {
@@ -41,6 +42,5 @@ pipeline {
                 archiveArtifacts artifacts: 'target/*.jar'
             }
         }
-
     }
 }
